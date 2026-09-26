@@ -1,11 +1,4 @@
 
-/**
- * Shopping cart interactions implementing the task above.
- *
- * Note: `closest()` is a method of a DOM element (event.target / this),
- * never of `document` - calling `document.closest()` is what caused the
- * "document.closest is not a function" error.
- */
 
 const listProducts = document.querySelector('.list-products');
 const totalElement = document.querySelector('.total');
