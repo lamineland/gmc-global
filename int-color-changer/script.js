@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   btn.addEventListener("click", function() {
     var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
     colorBox.style.backgroundColor = randomColor;
+    console.log("Color changed to: " + randomColor);
   });
 });
